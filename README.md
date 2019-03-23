@@ -1,6 +1,8 @@
 # fall-detector
 A neural network that detects the falls of elderly people from the data collected by sensors attached to their bodies.
 
+It uses a simple Python script with some Tensorflow functions. If you are learning Tensorflow, this can be your code!
+
 # What is here?
 Here you can find the following files and folders:
 - FallDetector.py: Try to create, train and use the neural network!
