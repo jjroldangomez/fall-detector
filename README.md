@@ -2,6 +2,7 @@
 A neural network that detects the falls of elderly people from the data collected by sensors attached to their bodies.
 
 # What is here?
+Here you can find the following files and folders:
 - FallDetector.py: Try to create, train and use the neural network!
 - FallDetectorSolved.py: Here is a solution with good performance.
 - Simulated: The dataset with simulated falls. It is used to train and test the neural network.
