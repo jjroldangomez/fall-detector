@@ -60,3 +60,14 @@ Juan Jesús Roldán Gómez - PhD on Automation and Robotics - www.jjrg.org - jj.
 
 # Acknowledgements
 Thanks to Elena for giving me the idea and helping me to develop it, as well as to Marta and Juve for providing us with valuable data of real falls. :)
+
+# Warning:
+This code was developed using Python 2.X with Tensorflow 1.X. 
+
+If you want to execute it under Python 3.X with Tensorflow 2.X, you will need to make the following changes:
+
+Replace:
+import tensorflow as tf
+by:
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
