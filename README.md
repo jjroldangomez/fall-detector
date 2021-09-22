@@ -67,11 +67,11 @@ This code was developed using Python 2.X with Tensorflow 1.X.
 If you want to execute it under Python 3.X with Tensorflow 2.X, you will need to make the following changes:
 
 Replace:
-
+```ruby
 import tensorflow as tf
-
+```
 by:
-
+```ruby
 import tensorflow.compat.v1 as tf
-
 tf.disable_v2_behavior()
+```
